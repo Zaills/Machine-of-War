@@ -10,7 +10,7 @@ import net.zaills.machine_of_war.Machine_of_War;
 public class ModItems {
 
     public static final Item Test = registerItem("test",
-            new Item(new FabricItemSettings().group(ItemGroup.REDSTONE)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MoF)));
 
 
     private static Item registerItem(String name,Item item){

@@ -1,5 +1,9 @@
 {
   "variants": {
-    "": {"model": "machine_of_war:block/redstone_lantern"}
+    "hanging=false": {
+      "model": "machine_of_war:block/redstone_lantern"},
+
+    "hanging=true": {
+      "model": "machine_of_war:block/redstone_lantern_hanging"}
   }
 }

@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "machine_of_war",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Machine of War",
+  "description": "Mod idea by Cherry!",
   "authors": [
-    "Me!"
+    "Zaills",
+    "Cherry",
+    "JayK"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +21,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.zaills.machine_of_war.Machine_of_War"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "machine_of_war.mixins.json"
   ],
 
   "depends": {
