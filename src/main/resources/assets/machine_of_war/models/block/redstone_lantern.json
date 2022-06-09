@@ -1,6 +1,6 @@
 {
-  "parent": "block/cube_all",
+  "parent": "minecraft:block/template_lantern",
   "textures": {
-    "all": "machine_of_war:block/redstone_lantern"
+    "lantern": "machine_of_war:block/lantern"
   }
 }
