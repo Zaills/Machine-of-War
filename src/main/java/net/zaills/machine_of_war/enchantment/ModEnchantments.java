@@ -13,6 +13,9 @@ public class ModEnchantments {
     public static Enchantment Bane_Of_Illager = register("bane_of_illager",
             new Bane_of_Illager(Enchantment.Rarity.UNCOMMON, EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
+    public static Enchantment Fire_Trail = register("fire_trail",
+            new Fire_Trail(Enchantment.Rarity.RARE, EnchantmentTarget.ARMOR_FEET, EquipmentSlot.FEET));
+
 
     private static Enchantment register(String name, Enchantment enchantment){
         return Registry.register(Registry.ENCHANTMENT, new Identifier(Machine_of_War.MOD_ID, name), enchantment);

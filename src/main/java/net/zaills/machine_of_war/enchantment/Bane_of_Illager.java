@@ -3,8 +3,7 @@ package net.zaills.machine_of_war.enchantment;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.entity.*;
-import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.village.VillagerType;
 
 public class Bane_of_Illager extends Enchantment {
     public boolean Bane = false;
@@ -26,7 +25,7 @@ public class Bane_of_Illager extends Enchantment {
     @Override
     public void onTargetDamaged(LivingEntity user, Entity target, int level) {
         if (target instanceof LivingEntity livingEntity){
-            if(livingEntity.getGroup() == EntityGroup.ILLAGER){
+            if(livingEntity.getGroup() == EntityGroup.ILLAGER || target.getType() == EntityType.VILLAGER){
                 int i = 20 + user.getRandom().nextInt(10 * level);
             }
         }
