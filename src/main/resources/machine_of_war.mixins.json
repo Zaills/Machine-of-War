@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "MoF_Mixin"
+    "MoW_Mixin"
   ],
   "injectors": {
     "defaultRequire": 1
