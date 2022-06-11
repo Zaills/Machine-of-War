@@ -1,5 +1,7 @@
 {
   "block.machine_of_war.redstone_lantern" : "Redstone Lantern",
 
-  "itemGroup.machine_of_war.mow" : "Machine of War"
+  "itemGroup.machine_of_war.mow" : "Machine of War",
+
+  "enchantment.machine_of_war.bane_of_illager" : "Bane Of Illager"
 }
