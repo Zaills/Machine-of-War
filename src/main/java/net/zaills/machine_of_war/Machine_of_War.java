@@ -2,6 +2,7 @@ package net.zaills.machine_of_war;
 
 import net.fabricmc.api.ModInitializer;
 import net.zaills.machine_of_war.block.ModBlocks;
+import net.zaills.machine_of_war.effect.Modeffect;
 import net.zaills.machine_of_war.enchantment.ModEnchantments;
 import net.zaills.machine_of_war.item.ModItems;
 import org.slf4j.Logger;
@@ -19,5 +20,6 @@ public class Machine_of_War implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItem();
 		ModEnchantments.registerModEnchantments();
+		Modeffect.registerEffect();
 	}
 }

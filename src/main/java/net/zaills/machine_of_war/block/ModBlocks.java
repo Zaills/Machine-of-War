@@ -14,7 +14,7 @@ import net.zaills.machine_of_war.item.ModItemGroup;
 public class ModBlocks {
 
     public static final Block Redstone_Lantern = registerBlock("redstone_lantern",
-            new Redstone_Lantern(FabricBlockSettings.of(Material.METAL).breakInstantly().luminance(10).drops(block.redstone_lantern)), ModItemGroup.MoW);
+            new Redstone_Lantern(FabricBlockSettings.of(Material.METAL).luminance(10)), ModItemGroup.MoW);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group){

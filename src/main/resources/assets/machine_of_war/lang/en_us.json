@@ -4,5 +4,7 @@
   "itemGroup.machine_of_war.mow" : "Machine of War",
 
   "enchantment.machine_of_war.bane_of_illager" : "Bane Of Illager",
-  "enchantment.machine_of_war.fire_trail" : "Fire Trail"
+  "enchantment.machine_of_war.fire_trail" : "Fire Trail",
+
+  "effect.machine_of_war.freezing": "Freezing"
 }
