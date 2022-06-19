@@ -8,11 +8,11 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.zaills.machine_of_war.Machine_of_War;
 import net.zaills.machine_of_war.block.custom.Redstone_Lantern;
-import net.zaills.machine_of_war.block.custom.Redstone_Lantern_test;
 import net.zaills.machine_of_war.item.ModItemGroup;
 
 public class ModBlocks {
 
+    private static Block LanternBlock;
     public static final Block Redstone_Lantern = registerBlock("redstone_lantern",
             new Redstone_Lantern(FabricBlockSettings.of(Material.METAL).luminance(10)), ModItemGroup.MoW);
 

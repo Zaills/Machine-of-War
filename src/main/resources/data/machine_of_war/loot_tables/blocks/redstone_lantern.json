@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone_lantern"
+          "name": "machine_of_war:redstone_lantern"
         }
       ],
       "rolls": 1.0

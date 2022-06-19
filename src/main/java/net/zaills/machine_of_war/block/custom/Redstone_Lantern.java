@@ -4,20 +4,22 @@ import net.minecraft.block.*;
 import net.minecraft.util.math.*;
 import net.minecraft.world.BlockView;
 
+import java.util.Objects;
 
 
 public class Redstone_Lantern extends LanternBlock  {
-
-    public Redstone_Lantern(AbstractBlock.Settings settings) {
+    public Redstone_Lantern(Settings settings) {
         super(settings);
     }
 
-    public boolean emitsRedstonePower(BlockState state){
+    @Override
+    public boolean emitsRedstonePower(BlockState state) {
         return true;
     }
 
+    @Override
     public int getWeakRedstonePower(BlockState state, BlockView world, BlockPos pos, Direction direction) {
-        return 15;
+        return Direction.DOWN != direction ? 15 : 0;
     }
 }
 
